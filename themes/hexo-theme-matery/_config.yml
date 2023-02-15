@@ -43,7 +43,7 @@ menu:
 # Website start time.
 # 站点运行开始时间.
 time:
-  enable: false
+  enable: ture
   year: 2023 # 年份
   month: 01 # 月份
   date: 01 # 日期
@@ -127,13 +127,13 @@ indexbtn:
   enable: true
   name: Github
   icon: fab fa-github-alt
-  url: https://github.com/JIUSUIAN
+  url: https://github.com/JIUSUIAN/blog
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github:  https://github.com/JIUSUIAN
+  github:  https://github.com/JIUSUIAN/blog
   email: 480064929@qq.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
@@ -217,7 +217,7 @@ myProjects:
     hexo-theme-matery:
       icon: fas fa-file-alt
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: http://github.com/JIUSUIAN
+      url: https://github.com/JIUSUIAN/blog
       desc: This is a Hexo blog theme with 'Material Design' and responsive design.
     Fenix:
         icon: fas fa-database
@@ -227,7 +227,7 @@ myProjects:
     typora-vue-theme:
         icon: fas fa-file-alt
         iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/JIUSUIAN
+        url: https://github.com/JIUSUIAN/blog
         desc: This is a typora theme inspired by Vue document style.
 
 # config my skills informations in about page.
@@ -381,7 +381,7 @@ changyan:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/JIUSUIAN
+  url: https://github.com/JIUSUIAN/blog
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
@@ -631,5 +631,6 @@ bbtime:
  appId: # 你的appId
  appKey: # 你的appKey
  serverURLs: # https://你的api
+
 
 
